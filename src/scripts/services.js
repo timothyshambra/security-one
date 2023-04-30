@@ -52,7 +52,7 @@ const populateServices = (services) => {
       const serviceCard = `<a id="service-${
         service.id
       }" class="service-card show" href="#">
-          <img src="/images/service-image.svg" alt="service image">
+          <img src="./images/service-image.svg" alt="service image">
         <div class="service-info">
           <span class="category">${service.category}</span>
           <h2 class="title">${service.title}</h2>

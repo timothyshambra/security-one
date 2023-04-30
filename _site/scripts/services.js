@@ -1,5 +1,5 @@
 const searchInput=document.querySelector("#services-search-input"),filterServicesByTag=(e,t)=>e.filter(e=>e.tags.some(e=>e.toLowerCase()===t.toLowerCase())),filterServicesBySearchTerm=(e,t)=>e.filter(e=>e.tags.some(e=>e.toLowerCase().includes(t))),createDetailsList=e=>{let t="";for(const s in e.details)"cost"===s?t+=`<li><strong>${s}: </strong>$${e.details[s]}</li>`:"duration"===s?t+=`<li><strong>${s}: </strong>${e.details[s]} days</li>`:t+=`<li><strong>${s}: </strong>${e.details[s]}</li>`;return t},createTagList=e=>{let t="";return e.tags.forEach(e=>{t+=`<li class="tag">${e}</li>`}),t},populateServices=e=>{const t=document.querySelector(".results");t.innerHTML="",0===e.length?t.innerHTML='<div class="no-results"><h3>No services found</h3></div>':e.forEach(e=>{e=`<a id="service-${e.id}" class="service-card show" href="#">
-          <img src="/images/service-image.svg" alt="service image">
+          <img src="./images/service-image.svg" alt="service image">
         <div class="service-info">
           <span class="category">${e.category}</span>
           <h2 class="title">${e.title}</h2>
