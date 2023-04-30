@@ -1,0 +1,34 @@
+.homepage {
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .hero-image {
+    justify-self: center;
+
+    & img {
+      width: 100%;
+      max-width: 550px;
+      height: auto;
+      border-radius: 64px;
+    }
+
+    .hero-text {
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-image {
+      display: none;
+    }
+  }
+}

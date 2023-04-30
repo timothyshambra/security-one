@@ -1,0 +1,79 @@
+{
+    "results": [
+        {
+            "id": 1,
+            "category": "Nuclear",
+            "title": "Nuclear Deterrence Consulting Services",
+            "details": {
+                "cost": 5000,
+                "duration": 60,
+                "available": true
+            },
+            "tags": [
+                "Nuclear deterrence",
+                "Nonproliferation",
+                "Consulting"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Energy",
+            "title": "Energy-efficient Home and Business Solutions",
+            "details": {
+                "cost": 1500,
+                "duration": 90,
+                "available": true
+            },
+            "tags": [
+                "Energy-efficient",
+                "Home solutions",
+                "Business solutions"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "Cybersecurity",
+            "title": "Cybersecurity Consulting and Solutions",
+            "details": {
+                "cost": 10000,
+                "duration": 120,
+                "available": true
+            },
+            "tags": [
+                "Cybersecurity",
+                "Consulting",
+                "Solutions"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Biosurveillance",
+            "title": "Biosurveillance System Development and Implementation",
+            "details": {
+                "cost": 8000,
+                "duration": 180,
+                "available": true
+            },
+            "tags": [
+                "Biosurveillance",
+                "System development",
+                "Implementation"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "Radiation",
+            "title": "Radiation Detection and Monitoring Services",
+            "details": {
+                "cost": 2500,
+                "duration": 60,
+                "available": true
+            },
+            "tags": [
+                "Radiation detection",
+                "Monitoring",
+                "Services"
+            ]
+        }
+    ]
+}

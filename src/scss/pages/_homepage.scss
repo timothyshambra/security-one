@@ -1,0 +1,52 @@
+@import '../mixins/section';
+
+  .homepage {
+    .products-section {
+      background-color: rgba(var(--primary-color-rgb), 0.08);
+    }
+
+    .products {
+      @include section;
+    }
+
+    @media screen and (max-width: 513px) {
+      .products {
+        .image {
+          grid-row: 1/2;
+        }
+
+        .text {
+          grid-row: 2/3;
+          margin-left: 0;
+        }
+      }
+    }
+
+    @media screen and (max-width: 420px) {
+      .products .image {
+        justify-self: left;
+      }
+    }
+
+    .services-section {
+      background-color: rgba(var(--primary-color-rgb), 0.04);
+    }
+
+    .services {
+      @include section;
+    }
+
+    @media screen and (max-width: 513px) {
+      .services {
+        .text {
+          margin-left: 0;
+        }
+      }
+    }
+
+    @media screen and (max-width: 420px) {
+      .services .image {
+        justify-self: left;
+      }
+    }
+  }

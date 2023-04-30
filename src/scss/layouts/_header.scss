@@ -1,0 +1,129 @@
+@import "mixins/container";
+
+$primary-color: var(--primary-color);
+$primary-light: var(--primary-light);
+$font-family-sans-serif: var(--font-family-sans-serif);
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  column-gap: 1rem;
+
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    text-decoration: none;
+    font-family: $font-family-sans-serif;
+    letter-spacing: -0.04em;
+
+    .logo-image {
+      width: clamp(4rem, 6vh, 12rem);
+    }
+
+    .logo-text {
+      font-size: 1.5rem;
+      color: $primary-light;
+
+      .bold {
+        color: $primary-color;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    .menu-link {
+      list-style: none;
+      a {
+        color: $primary-color;
+        font-family: $font-family-sans-serif;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        text-decoration: none;
+
+        &:hover {
+          color: $primary-light;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+    .menu-button {
+      display: none;
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
+    }
+
+    &.opened {
+      position: absolute;
+      top: 0;
+      margin-top: 1rem;
+      flex-direction: column;
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--white-color);
+      border-radius: 0.5rem;
+      border: 1px solid var(--primary-color);
+      padding: 2rem 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+
+      .menu-link {
+        display: block;
+      }
+    }
+  }
+
+  .menu-button {
+    .menu-icon {
+      line {
+        stroke: $primary-color;
+      }
+    }
+    &.opened {
+      .menu-icon {
+        line:nth-child(1) {
+          transform: rotate(45deg);
+          transform-origin: 26% 40%;
+        }
+        line:nth-child(2) {
+          opacity: 0;
+        }
+        line:nth-child(3) {
+          transform: rotate(-45deg);
+          transform-origin: 25% 60%;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        top: 0.25rem;
+        right: 0.25rem;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      position: absolute;
+      right: 0;
+      display: block;
+      justify-self: end;
+      z-index: 2;
+      cursor: pointer;
+    }
+  }
+}

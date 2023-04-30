@@ -1,0 +1,6 @@
+const productsPerPage=4,debounceTime=200;let products,startIndex=0,isLoading=!1;function populateProducts(e){const o=document.querySelector(".results");0===e.length?o.innerHTML='<div class="no-results"><h3>No products found<h3></div>':e.forEach((e,t)=>{t>=startIndex&&t<startIndex+productsPerPage&&(t=`
+          <a href="#" class="product-card">
+            <img src="${e.image}" alt="product photo" class="product-image">
+            <h2>${e.title}</h2>
+            <p class="description">${e.description}</p>
+          </a>`,o.innerHTML+=t)})}function loadMoreProducts(){isLoading||(isLoading=!0,startIndex+=productsPerPage,setTimeout(()=>{populateProducts(products),isLoading=!1},500))}function debounce(t,o){let r;return function(...e){clearTimeout(r),r=setTimeout(()=>{clearTimeout(r),t(...e)},o)}}document.addEventListener("DOMContentLoaded",()=>{fetch("/data/products.json").then(e=>e.json()).then(e=>{populateProducts(products=e.results)}).catch(e=>{console.error(e)}),window.addEventListener("scroll",debounce(()=>{var{scrollTop:e,scrollHeight:t,clientHeight:o}=document.documentElement;t-5<=e+o&&loadMoreProducts()},debounceTime))});

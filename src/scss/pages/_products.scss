@@ -1,0 +1,17 @@
+@import '../components/product_card';
+
+.products-page {
+  background-color: rgba(var(--primary-color-rgb), 0.04);
+  padding: 1rem;
+  min-height: 80vh;
+
+  .results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: var(--white-color);
+    border-radius: 0.5rem;
+  }
+}

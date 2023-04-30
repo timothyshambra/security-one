@@ -1,0 +1,688 @@
+{
+    "results": [
+        {
+            "id": "p001",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Nuclear Detection System",
+            "description": "A state-of-the-art system for detecting and identifying nuclear materials, with high accuracy and sensitivity."
+        },
+        {
+            "id": "p002",
+            "image": "/images/product-photo.svg",
+            "title": "Cybersecurity Suite",
+            "description": "A comprehensive suite of tools and services for protecting against cyber threats, including network monitoring, threat analysis, and incident response."
+        },
+        {
+            "id": "p003",
+            "image": "/images/product-photo.svg",
+            "title": "Climate Modeling Software",
+            "description": "Cutting-edge software for simulating and predicting climate patterns, with advanced features for data visualization and analysis."
+        },
+        {
+            "id": "p004",
+            "image": "/images/product-photo.svg",
+            "title": "Biodefense Kit",
+            "description": "A portable kit containing essential tools and supplies for detecting and responding to biological threats, such as viruses and bacteria."
+        },
+        {
+            "id": "p005",
+            "image": "/images/product-photo.svg",
+            "title": "Energy Storage System",
+            "description": "A high-capacity storage system for renewable energy sources, such as solar and wind power, with advanced features for energy management and optimization."
+        },
+        {
+            "id": "p006",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Home Security System",
+            "description": "An intelligent security system for homes and apartments, with features such as motion detection, facial recognition, and remote access control."
+        },
+        {
+            "id": "p007",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Materials Testing Equipment",
+            "description": "A range of advanced equipment for testing and analyzing materials, with high precision and accuracy for demanding applications."
+        },
+        {
+            "id": "p008",
+            "image": "/images/product-photo.svg",
+            "title": "Emergency Response Vehicle",
+            "description": "A specially designed vehicle for emergency response teams, with features such as medical equipment, communication systems, and off-road capability."
+        },
+        {
+            "id": "p009",
+            "image": "/images/product-photo.svg",
+            "title": "Secure Communication Suite",
+            "description": "A suite of secure communication tools and services, including encryption, authentication, and key management, for sensitive and classified information."
+        },
+        {
+            "id": "p010",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Manufacturing System",
+            "description": "An integrated system for advanced manufacturing, with features such as additive manufacturing, robotics, and quality control."
+        },
+        {
+            "id": "p011",
+            "image": "/images/product-photo.svg",
+            "title": "Space-based Observation System",
+            "description": "A space-based system for observing and monitoring Earth's surface, atmosphere, and oceans, with high resolution and real-time data."
+        },
+        {
+            "id": "012",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Earbuds",
+            "description": "High-quality wireless earbuds with noise-cancelling technology."
+        },
+        {
+            "id": "013",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Water Bottle",
+            "description": "A water bottle that tracks your water intake and reminds you to stay hydrated."
+        },
+        {
+            "id": "014",
+            "image": "/images/product-photo.svg",
+            "title": "Fitness Tracker",
+            "description": "A wearable device that tracks your physical activity and monitors your heart rate."
+        },
+        {
+            "id": "015",
+            "image": "/images/product-photo.svg",
+            "title": "Electric Toothbrush",
+            "description": "An electric toothbrush with multiple brushing modes and a long-lasting battery."
+        },
+        {
+            "id": "016",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Thermostat",
+            "description": "A thermostat that learns your temperature preferences and adjusts accordingly."
+        },
+        {
+            "id": "017",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Charger",
+            "description": "A fast wireless charger compatible with multiple devices."
+        },
+        {
+            "id": "018",
+            "image": "/images/product-photo.svg",
+            "title": "Virtual Reality Headset",
+            "description": "A high-quality virtual reality headset for immersive gaming and entertainment."
+        },
+        {
+            "id": "019",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Lock",
+            "description": "A keyless lock that can be controlled with a smartphone app or voice commands."
+        },
+        {
+            "id": "p001",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Nuclear Detection System",
+            "description": "A state-of-the-art system for detecting and identifying nuclear materials, with high accuracy and sensitivity."
+        },
+        {
+            "id": "p002",
+            "image": "/images/product-photo.svg",
+            "title": "Cybersecurity Suite",
+            "description": "A comprehensive suite of tools and services for protecting against cyber threats, including network monitoring, threat analysis, and incident response."
+        },
+        {
+            "id": "p003",
+            "image": "/images/product-photo.svg",
+            "title": "Climate Modeling Software",
+            "description": "Cutting-edge software for simulating and predicting climate patterns, with advanced features for data visualization and analysis."
+        },
+        {
+            "id": "p004",
+            "image": "/images/product-photo.svg",
+            "title": "Biodefense Kit",
+            "description": "A portable kit containing essential tools and supplies for detecting and responding to biological threats, such as viruses and bacteria."
+        },
+        {
+            "id": "p005",
+            "image": "/images/product-photo.svg",
+            "title": "Energy Storage System",
+            "description": "A high-capacity storage system for renewable energy sources, such as solar and wind power, with advanced features for energy management and optimization."
+        },
+        {
+            "id": "p006",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Home Security System",
+            "description": "An intelligent security system for homes and apartments, with features such as motion detection, facial recognition, and remote access control."
+        },
+        {
+            "id": "p007",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Materials Testing Equipment",
+            "description": "A range of advanced equipment for testing and analyzing materials, with high precision and accuracy for demanding applications."
+        },
+        {
+            "id": "p008",
+            "image": "/images/product-photo.svg",
+            "title": "Emergency Response Vehicle",
+            "description": "A specially designed vehicle for emergency response teams, with features such as medical equipment, communication systems, and off-road capability."
+        },
+        {
+            "id": "p009",
+            "image": "/images/product-photo.svg",
+            "title": "Secure Communication Suite",
+            "description": "A suite of secure communication tools and services, including encryption, authentication, and key management, for sensitive and classified information."
+        },
+        {
+            "id": "p010",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Manufacturing System",
+            "description": "An integrated system for advanced manufacturing, with features such as additive manufacturing, robotics, and quality control."
+        },
+        {
+            "id": "p011",
+            "image": "/images/product-photo.svg",
+            "title": "Space-based Observation System",
+            "description": "A space-based system for observing and monitoring Earth's surface, atmosphere, and oceans, with high resolution and real-time data."
+        },
+        {
+            "id": "012",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Earbuds",
+            "description": "High-quality wireless earbuds with noise-cancelling technology."
+        },
+        {
+            "id": "013",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Water Bottle",
+            "description": "A water bottle that tracks your water intake and reminds you to stay hydrated."
+        },
+        {
+            "id": "014",
+            "image": "/images/product-photo.svg",
+            "title": "Fitness Tracker",
+            "description": "A wearable device that tracks your physical activity and monitors your heart rate."
+        },
+        {
+            "id": "015",
+            "image": "/images/product-photo.svg",
+            "title": "Electric Toothbrush",
+            "description": "An electric toothbrush with multiple brushing modes and a long-lasting battery."
+        },
+        {
+            "id": "016",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Thermostat",
+            "description": "A thermostat that learns your temperature preferences and adjusts accordingly."
+        },
+        {
+            "id": "017",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Charger",
+            "description": "A fast wireless charger compatible with multiple devices."
+        },
+        {
+            "id": "018",
+            "image": "/images/product-photo.svg",
+            "title": "Virtual Reality Headset",
+            "description": "A high-quality virtual reality headset for immersive gaming and entertainment."
+        },
+        {
+            "id": "019",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Lock",
+            "description": "A keyless lock that can be controlled with a smartphone app or voice commands."
+        },
+        {
+            "id": "p001",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Nuclear Detection System",
+            "description": "A state-of-the-art system for detecting and identifying nuclear materials, with high accuracy and sensitivity."
+        },
+        {
+            "id": "p002",
+            "image": "/images/product-photo.svg",
+            "title": "Cybersecurity Suite",
+            "description": "A comprehensive suite of tools and services for protecting against cyber threats, including network monitoring, threat analysis, and incident response."
+        },
+        {
+            "id": "p003",
+            "image": "/images/product-photo.svg",
+            "title": "Climate Modeling Software",
+            "description": "Cutting-edge software for simulating and predicting climate patterns, with advanced features for data visualization and analysis."
+        },
+        {
+            "id": "p004",
+            "image": "/images/product-photo.svg",
+            "title": "Biodefense Kit",
+            "description": "A portable kit containing essential tools and supplies for detecting and responding to biological threats, such as viruses and bacteria."
+        },
+        {
+            "id": "p005",
+            "image": "/images/product-photo.svg",
+            "title": "Energy Storage System",
+            "description": "A high-capacity storage system for renewable energy sources, such as solar and wind power, with advanced features for energy management and optimization."
+        },
+        {
+            "id": "p006",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Home Security System",
+            "description": "An intelligent security system for homes and apartments, with features such as motion detection, facial recognition, and remote access control."
+        },
+        {
+            "id": "p007",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Materials Testing Equipment",
+            "description": "A range of advanced equipment for testing and analyzing materials, with high precision and accuracy for demanding applications."
+        },
+        {
+            "id": "p008",
+            "image": "/images/product-photo.svg",
+            "title": "Emergency Response Vehicle",
+            "description": "A specially designed vehicle for emergency response teams, with features such as medical equipment, communication systems, and off-road capability."
+        },
+        {
+            "id": "p009",
+            "image": "/images/product-photo.svg",
+            "title": "Secure Communication Suite",
+            "description": "A suite of secure communication tools and services, including encryption, authentication, and key management, for sensitive and classified information."
+        },
+        {
+            "id": "p010",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Manufacturing System",
+            "description": "An integrated system for advanced manufacturing, with features such as additive manufacturing, robotics, and quality control."
+        },
+        {
+            "id": "p011",
+            "image": "/images/product-photo.svg",
+            "title": "Space-based Observation System",
+            "description": "A space-based system for observing and monitoring Earth's surface, atmosphere, and oceans, with high resolution and real-time data."
+        },
+        {
+            "id": "012",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Earbuds",
+            "description": "High-quality wireless earbuds with noise-cancelling technology."
+        },
+        {
+            "id": "013",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Water Bottle",
+            "description": "A water bottle that tracks your water intake and reminds you to stay hydrated."
+        },
+        {
+            "id": "014",
+            "image": "/images/product-photo.svg",
+            "title": "Fitness Tracker",
+            "description": "A wearable device that tracks your physical activity and monitors your heart rate."
+        },
+        {
+            "id": "015",
+            "image": "/images/product-photo.svg",
+            "title": "Electric Toothbrush",
+            "description": "An electric toothbrush with multiple brushing modes and a long-lasting battery."
+        },
+        {
+            "id": "016",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Thermostat",
+            "description": "A thermostat that learns your temperature preferences and adjusts accordingly."
+        },
+        {
+            "id": "017",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Charger",
+            "description": "A fast wireless charger compatible with multiple devices."
+        },
+        {
+            "id": "018",
+            "image": "/images/product-photo.svg",
+            "title": "Virtual Reality Headset",
+            "description": "A high-quality virtual reality headset for immersive gaming and entertainment."
+        },
+        {
+            "id": "019",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Lock",
+            "description": "A keyless lock that can be controlled with a smartphone app or voice commands."
+        },
+        {
+            "id": "p001",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Nuclear Detection System",
+            "description": "A state-of-the-art system for detecting and identifying nuclear materials, with high accuracy and sensitivity."
+        },
+        {
+            "id": "p002",
+            "image": "/images/product-photo.svg",
+            "title": "Cybersecurity Suite",
+            "description": "A comprehensive suite of tools and services for protecting against cyber threats, including network monitoring, threat analysis, and incident response."
+        },
+        {
+            "id": "p003",
+            "image": "/images/product-photo.svg",
+            "title": "Climate Modeling Software",
+            "description": "Cutting-edge software for simulating and predicting climate patterns, with advanced features for data visualization and analysis."
+        },
+        {
+            "id": "p004",
+            "image": "/images/product-photo.svg",
+            "title": "Biodefense Kit",
+            "description": "A portable kit containing essential tools and supplies for detecting and responding to biological threats, such as viruses and bacteria."
+        },
+        {
+            "id": "p005",
+            "image": "/images/product-photo.svg",
+            "title": "Energy Storage System",
+            "description": "A high-capacity storage system for renewable energy sources, such as solar and wind power, with advanced features for energy management and optimization."
+        },
+        {
+            "id": "p006",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Home Security System",
+            "description": "An intelligent security system for homes and apartments, with features such as motion detection, facial recognition, and remote access control."
+        },
+        {
+            "id": "p007",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Materials Testing Equipment",
+            "description": "A range of advanced equipment for testing and analyzing materials, with high precision and accuracy for demanding applications."
+        },
+        {
+            "id": "p008",
+            "image": "/images/product-photo.svg",
+            "title": "Emergency Response Vehicle",
+            "description": "A specially designed vehicle for emergency response teams, with features such as medical equipment, communication systems, and off-road capability."
+        },
+        {
+            "id": "p009",
+            "image": "/images/product-photo.svg",
+            "title": "Secure Communication Suite",
+            "description": "A suite of secure communication tools and services, including encryption, authentication, and key management, for sensitive and classified information."
+        },
+        {
+            "id": "p010",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Manufacturing System",
+            "description": "An integrated system for advanced manufacturing, with features such as additive manufacturing, robotics, and quality control."
+        },
+        {
+            "id": "p011",
+            "image": "/images/product-photo.svg",
+            "title": "Space-based Observation System",
+            "description": "A space-based system for observing and monitoring Earth's surface, atmosphere, and oceans, with high resolution and real-time data."
+        },
+        {
+            "id": "012",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Earbuds",
+            "description": "High-quality wireless earbuds with noise-cancelling technology."
+        },
+        {
+            "id": "013",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Water Bottle",
+            "description": "A water bottle that tracks your water intake and reminds you to stay hydrated."
+        },
+        {
+            "id": "014",
+            "image": "/images/product-photo.svg",
+            "title": "Fitness Tracker",
+            "description": "A wearable device that tracks your physical activity and monitors your heart rate."
+        },
+        {
+            "id": "015",
+            "image": "/images/product-photo.svg",
+            "title": "Electric Toothbrush",
+            "description": "An electric toothbrush with multiple brushing modes and a long-lasting battery."
+        },
+        {
+            "id": "016",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Thermostat",
+            "description": "A thermostat that learns your temperature preferences and adjusts accordingly."
+        },
+        {
+            "id": "017",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Charger",
+            "description": "A fast wireless charger compatible with multiple devices."
+        },
+        {
+            "id": "018",
+            "image": "/images/product-photo.svg",
+            "title": "Virtual Reality Headset",
+            "description": "A high-quality virtual reality headset for immersive gaming and entertainment."
+        },
+        {
+            "id": "019",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Lock",
+            "description": "A keyless lock that can be controlled with a smartphone app or voice commands."
+        },
+        {
+            "id": "p001",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Nuclear Detection System",
+            "description": "A state-of-the-art system for detecting and identifying nuclear materials, with high accuracy and sensitivity."
+        },
+        {
+            "id": "p002",
+            "image": "/images/product-photo.svg",
+            "title": "Cybersecurity Suite",
+            "description": "A comprehensive suite of tools and services for protecting against cyber threats, including network monitoring, threat analysis, and incident response."
+        },
+        {
+            "id": "p003",
+            "image": "/images/product-photo.svg",
+            "title": "Climate Modeling Software",
+            "description": "Cutting-edge software for simulating and predicting climate patterns, with advanced features for data visualization and analysis."
+        },
+        {
+            "id": "p004",
+            "image": "/images/product-photo.svg",
+            "title": "Biodefense Kit",
+            "description": "A portable kit containing essential tools and supplies for detecting and responding to biological threats, such as viruses and bacteria."
+        },
+        {
+            "id": "p005",
+            "image": "/images/product-photo.svg",
+            "title": "Energy Storage System",
+            "description": "A high-capacity storage system for renewable energy sources, such as solar and wind power, with advanced features for energy management and optimization."
+        },
+        {
+            "id": "p006",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Home Security System",
+            "description": "An intelligent security system for homes and apartments, with features such as motion detection, facial recognition, and remote access control."
+        },
+        {
+            "id": "p007",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Materials Testing Equipment",
+            "description": "A range of advanced equipment for testing and analyzing materials, with high precision and accuracy for demanding applications."
+        },
+        {
+            "id": "p008",
+            "image": "/images/product-photo.svg",
+            "title": "Emergency Response Vehicle",
+            "description": "A specially designed vehicle for emergency response teams, with features such as medical equipment, communication systems, and off-road capability."
+        },
+        {
+            "id": "p009",
+            "image": "/images/product-photo.svg",
+            "title": "Secure Communication Suite",
+            "description": "A suite of secure communication tools and services, including encryption, authentication, and key management, for sensitive and classified information."
+        },
+        {
+            "id": "p010",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Manufacturing System",
+            "description": "An integrated system for advanced manufacturing, with features such as additive manufacturing, robotics, and quality control."
+        },
+        {
+            "id": "p011",
+            "image": "/images/product-photo.svg",
+            "title": "Space-based Observation System",
+            "description": "A space-based system for observing and monitoring Earth's surface, atmosphere, and oceans, with high resolution and real-time data."
+        },
+        {
+            "id": "012",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Earbuds",
+            "description": "High-quality wireless earbuds with noise-cancelling technology."
+        },
+        {
+            "id": "013",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Water Bottle",
+            "description": "A water bottle that tracks your water intake and reminds you to stay hydrated."
+        },
+        {
+            "id": "014",
+            "image": "/images/product-photo.svg",
+            "title": "Fitness Tracker",
+            "description": "A wearable device that tracks your physical activity and monitors your heart rate."
+        },
+        {
+            "id": "015",
+            "image": "/images/product-photo.svg",
+            "title": "Electric Toothbrush",
+            "description": "An electric toothbrush with multiple brushing modes and a long-lasting battery."
+        },
+        {
+            "id": "016",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Thermostat",
+            "description": "A thermostat that learns your temperature preferences and adjusts accordingly."
+        },
+        {
+            "id": "017",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Charger",
+            "description": "A fast wireless charger compatible with multiple devices."
+        },
+        {
+            "id": "018",
+            "image": "/images/product-photo.svg",
+            "title": "Virtual Reality Headset",
+            "description": "A high-quality virtual reality headset for immersive gaming and entertainment."
+        },
+        {
+            "id": "019",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Lock",
+            "description": "A keyless lock that can be controlled with a smartphone app or voice commands."
+        },
+        {
+            "id": "p001",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Nuclear Detection System",
+            "description": "A state-of-the-art system for detecting and identifying nuclear materials, with high accuracy and sensitivity."
+        },
+        {
+            "id": "p002",
+            "image": "/images/product-photo.svg",
+            "title": "Cybersecurity Suite",
+            "description": "A comprehensive suite of tools and services for protecting against cyber threats, including network monitoring, threat analysis, and incident response."
+        },
+        {
+            "id": "p003",
+            "image": "/images/product-photo.svg",
+            "title": "Climate Modeling Software",
+            "description": "Cutting-edge software for simulating and predicting climate patterns, with advanced features for data visualization and analysis."
+        },
+        {
+            "id": "p004",
+            "image": "/images/product-photo.svg",
+            "title": "Biodefense Kit",
+            "description": "A portable kit containing essential tools and supplies for detecting and responding to biological threats, such as viruses and bacteria."
+        },
+        {
+            "id": "p005",
+            "image": "/images/product-photo.svg",
+            "title": "Energy Storage System",
+            "description": "A high-capacity storage system for renewable energy sources, such as solar and wind power, with advanced features for energy management and optimization."
+        },
+        {
+            "id": "p006",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Home Security System",
+            "description": "An intelligent security system for homes and apartments, with features such as motion detection, facial recognition, and remote access control."
+        },
+        {
+            "id": "p007",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Materials Testing Equipment",
+            "description": "A range of advanced equipment for testing and analyzing materials, with high precision and accuracy for demanding applications."
+        },
+        {
+            "id": "p008",
+            "image": "/images/product-photo.svg",
+            "title": "Emergency Response Vehicle",
+            "description": "A specially designed vehicle for emergency response teams, with features such as medical equipment, communication systems, and off-road capability."
+        },
+        {
+            "id": "p009",
+            "image": "/images/product-photo.svg",
+            "title": "Secure Communication Suite",
+            "description": "A suite of secure communication tools and services, including encryption, authentication, and key management, for sensitive and classified information."
+        },
+        {
+            "id": "p010",
+            "image": "/images/product-photo.svg",
+            "title": "Advanced Manufacturing System",
+            "description": "An integrated system for advanced manufacturing, with features such as additive manufacturing, robotics, and quality control."
+        },
+        {
+            "id": "p011",
+            "image": "/images/product-photo.svg",
+            "title": "Space-based Observation System",
+            "description": "A space-based system for observing and monitoring Earth's surface, atmosphere, and oceans, with high resolution and real-time data."
+        },
+        {
+            "id": "012",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Earbuds",
+            "description": "High-quality wireless earbuds with noise-cancelling technology."
+        },
+        {
+            "id": "013",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Water Bottle",
+            "description": "A water bottle that tracks your water intake and reminds you to stay hydrated."
+        },
+        {
+            "id": "014",
+            "image": "/images/product-photo.svg",
+            "title": "Fitness Tracker",
+            "description": "A wearable device that tracks your physical activity and monitors your heart rate."
+        },
+        {
+            "id": "015",
+            "image": "/images/product-photo.svg",
+            "title": "Electric Toothbrush",
+            "description": "An electric toothbrush with multiple brushing modes and a long-lasting battery."
+        },
+        {
+            "id": "016",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Thermostat",
+            "description": "A thermostat that learns your temperature preferences and adjusts accordingly."
+        },
+        {
+            "id": "017",
+            "image": "/images/product-photo.svg",
+            "title": "Wireless Charger",
+            "description": "A fast wireless charger compatible with multiple devices."
+        },
+        {
+            "id": "018",
+            "image": "/images/product-photo.svg",
+            "title": "Virtual Reality Headset",
+            "description": "A high-quality virtual reality headset for immersive gaming and entertainment."
+        },
+        {
+            "id": "019",
+            "image": "/images/product-photo.svg",
+            "title": "Smart Lock",
+            "description": "A keyless lock that can be controlled with a smartphone app or voice commands."
+        }
+    ]
+}

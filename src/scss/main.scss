@@ -1,0 +1,21 @@
+// Normalize.css
+@import "base/normalize";
+
+// Global styles
+@import "base/root";
+@import "base/typography";
+@import "base/container";
+
+// Components
+@import "components/buttons";
+@import "components/inputs";
+
+// Pages
+@import "pages/homepage";
+@import "pages/products";
+@import "pages/services";
+
+
+@import "layouts/header";
+@import "layouts/hero-banner";
+@import "layouts/footer";
