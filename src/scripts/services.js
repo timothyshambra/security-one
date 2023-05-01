@@ -1,5 +1,11 @@
 const searchInput = document.querySelector("#services-search-input");
+let services = [];
 
+/**
+ * Fetches data from the given URL and returns a promise.
+ * @param {string} url - The URL to fetch data from.
+ * @returns {Promise} A promise that resolves to the data fetched from the URL.
+ */
 function fetchData(url) {
   return fetch(url)
     .then((response) => {
@@ -20,18 +26,34 @@ function fetchData(url) {
     });
 }
 
+/**
+ * Filters the given services by the given tag.
+ * @param {Array} services - The services to filter.
+ * @param {string} tag - The tag to filter by.
+ */
 const filterServicesByTag = (services, tag) => {
   return services.filter((service) => {
     return service.tags.some((t) => t.toLowerCase() === tag.toLowerCase());
   });
 };
 
+/**
+ * Filters the given services by the given search term.
+ * @param {Array} services - The services to filter.
+ * @param {string} searchTerm - The search term to filter by.
+ * @returns {Array} The filtered services.
+ */
 const filterServicesBySearchTerm = (services, searchTerm) => {
   return services.filter((service) => {
     return service.tags.some((tag) => tag.toLowerCase().includes(searchTerm));
   });
 };
 
+/**
+ * Creates a list of details for the given service.
+ * @param {Object} service - The service to create a details list for.
+ * @returns {string} The details list.
+ */
 const createDetailsList = (service) => {
   let detailsList = "";
   for (const key in service.details) {
@@ -47,6 +69,11 @@ const createDetailsList = (service) => {
   return detailsList;
 };
 
+/**
+ * Creates a list of tags for the given service.
+ * @param {Object} service - The service to create a tag list for.
+ * @returns {string} The tag list.
+ * */
 const createTagList = (service) => {
   let tagList = "";
   service.tags.forEach((tag) => {
@@ -55,6 +82,10 @@ const createTagList = (service) => {
   return tagList;
 };
 
+/**
+ * Populates the services section with the given services.
+ * @param {Array} services - The services to populate the section with.
+ * */
 const populateServices = (services) => {
   const results = document.querySelector(".results");
 
@@ -97,6 +128,9 @@ const populateServices = (services) => {
   });
 };
 
+/**
+ * Populates the services section with the given services.
+ */
 document.addEventListener("DOMContentLoaded", () => {
   const url = "/data/services.json";
 
