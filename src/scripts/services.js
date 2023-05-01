@@ -1,7 +1,25 @@
-// Declare variables using const instead of let when possible
 const searchInput = document.querySelector("#services-search-input");
 
-// Use arrow functions for readability
+function fetchData(url) {
+  return fetch(url)
+    .then((response) => {
+      if (response.ok) {
+        return response.json();
+      } else {
+        throw new Error(
+          `Failed to fetch data from ${url}: ${response.status} ${response.statusText}`
+        );
+      }
+    })
+    .catch((error) => {
+      console.error(error);
+      throw new Error(
+        `Fetching data from ${url} failed. Please check your network connection
+        and try again later.`
+      );
+    });
+}
+
 const filterServicesByTag = (services, tag) => {
   return services.filter((service) => {
     return service.tags.some((t) => t.toLowerCase() === tag.toLowerCase());
@@ -43,7 +61,6 @@ const populateServices = (services) => {
   results.innerHTML = "";
 
   if (services.length === 0) {
-    // Use single quotes for consistency
     const noResultsMessage =
       '<div class="no-results"><h3>No services found</h3></div>';
     results.innerHTML = noResultsMessage;
@@ -65,13 +82,12 @@ const populateServices = (services) => {
           ${createTagList(service)}
         </ul>
       </a>`;
-      results.insertAdjacentHTML("beforeend", serviceCard); // Use insertAdjacentHTML for performance
+      results.insertAdjacentHTML("beforeend", serviceCard);
     });
   }
 
   const tagLists = document.querySelectorAll(".tag");
 
-  // Use forEach instead of for loops for readability
   tagLists.forEach((tagList) => {
     tagList.addEventListener("click", (event) => {
       const tag = event.target.textContent.trim();
@@ -82,22 +98,20 @@ const populateServices = (services) => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/data/services.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const services = data.results;
-      populateServices(services);
+  const url = "/data/services.json";
 
-      searchInput.addEventListener("input", (event) => {
-        const searchTerm = event.target.value.trim().toLowerCase();
-        const filteredServices = filterServicesBySearchTerm(
-          services,
-          searchTerm
-        );
-        populateServices(filteredServices);
-      });
+  fetchData(url)
+    .then((data) => {
+      services = data.results;
+      populateServices(services);
     })
     .catch((error) => {
       console.error(error);
     });
+
+  searchInput.addEventListener("input", (event) => {
+    const searchTerm = event.target.value.trim().toLowerCase();
+    const filteredServices = filterServicesBySearchTerm(services, searchTerm);
+    populateServices(filteredServices);
+  });
 });
