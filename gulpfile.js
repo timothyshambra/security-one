@@ -27,6 +27,7 @@ function copyImages() {
   return gulp.src("src/images/*").pipe(gulp.dest("_site/images"));
 }
 
+//TODO: Concatenate and minify scripts
 function optimizeScripts() {
   return gulp.src("src/scripts/*")
     .pipe(uglify())

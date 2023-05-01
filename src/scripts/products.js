@@ -1,10 +1,14 @@
 const productsPerPage = 4;
 const debounceTime = 200;
 
-let products;
+let products = [];
 let startIndex = 0;
 let isLoading = false;
 
+/**
+ * Populates the products section with the given products.
+ * @param {Array} products - The products to populate the section with.
+*/
 const populateProducts = (products) => {
   const results = document.querySelector(".results");
 
@@ -27,7 +31,9 @@ const populateProducts = (products) => {
   }
 }
 
-
+/**
+ * Loads more products when the user scrolls to the bottom of the page.
+*/
 const loadMoreProducts = () => {
   if (isLoading) {
     return;
@@ -40,10 +46,12 @@ const loadMoreProducts = () => {
   setTimeout(() => {
     populateProducts(products);
     isLoading = false;
-  }, 500);
+  }, 250);
 };
 
-
+/**
+ * Populates the products section with the given products on page load.
+ */
 document.addEventListener("DOMContentLoaded", () => {
   fetch("/data/products.json")
     .then((response) => response.json())
@@ -60,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
     debounce(() => {
       const { scrollTop, scrollHeight, clientHeight } =
         document.documentElement;
-      if (scrollTop + clientHeight >= scrollHeight - 5) {
+      if (scrollTop + clientHeight >= scrollHeight - 15) {
         loadMoreProducts();
       }
     }, debounceTime)
@@ -68,6 +76,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+/**
+ * Debounces a function.
+ * @param {Function} func - The function to debounce.
+ * @param {number} wait - The time to wait before calling the function.
+ * @returns {Function} The debounced function.
+*/
 const debounce = (func, wait) => {
   let timeout;
   return (...args) => {
