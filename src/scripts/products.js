@@ -5,7 +5,7 @@ let products;
 let startIndex = 0;
 let isLoading = false;
 
-function populateProducts(products) {
+const populateProducts = (products) => {
   const results = document.querySelector(".results");
 
   if (products.length === 0) {
@@ -27,7 +27,8 @@ function populateProducts(products) {
   }
 }
 
-function loadMoreProducts() {
+
+const loadMoreProducts = () => {
   if (isLoading) {
     return;
   }
@@ -40,7 +41,8 @@ function loadMoreProducts() {
     populateProducts(products);
     isLoading = false;
   }, 500);
-}
+};
+
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch("/data/products.json")
@@ -65,9 +67,10 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 });
 
-function debounce(func, wait) {
+
+const debounce = (func, wait) => {
   let timeout;
-  return function executedFunction(...args) {
+  return (...args) => {
     const later = () => {
       clearTimeout(timeout);
       func(...args);
@@ -75,4 +78,4 @@ function debounce(func, wait) {
     clearTimeout(timeout);
     timeout = setTimeout(later, wait);
   };
-}
+};

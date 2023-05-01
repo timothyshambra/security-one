@@ -119,7 +119,7 @@ $font-family-sans-serif: var(--font-family-sans-serif);
     }
     @media screen and (max-width: 768px) {
       position: absolute;
-      right: 0;
+      right: 1rem;
       display: block;
       justify-self: end;
       z-index: 2;
